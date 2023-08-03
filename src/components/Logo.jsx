@@ -2,7 +2,9 @@ import React from 'react'
 
 const Logo = ({title}) => {
   return (
-    <a className='p-2 font-extrabold text-lg' href="">{title}</a>
+      <>
+        <a className="btn btn-ghost normal-case text-xl font-bold px-0">My Tinerary</a>
+      </>
   )
 }
 
