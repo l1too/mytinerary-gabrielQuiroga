@@ -1,17 +1,19 @@
 
 import './App.css'
-import Nav2 from './components/Nav2'
-import Content from './components/Content'
-import Carrousel from './components/Carrousel'
+
+import Main from './layouts/Main'
+import Home from './pages/Home'
 
 function App() {
   
 
   return (
     <>
-        <Nav2/> 
-        <Content/>
-        <Carrousel/>
+
+        <Main>
+          <Home/>
+        </Main>
+           
     </>
   )
 }

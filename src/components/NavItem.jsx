@@ -1,9 +1,9 @@
 import React from 'react'
 
-const NavItem = ({title}) => {
+const NavItem = ({title,to}) => {
   return (
-      <li>
-        <button  className= 'font-bold '>{title}</button>
+      <li className='list-none'>
+        <a href={to} className= 'font-bold '>{title}</a>
       </li>
   )
 }
